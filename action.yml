@@ -1,0 +1,12 @@
+name: slack-notification
+description: Send a message to a Slack webhook URL.
+inputs:
+  WEBHOOK:
+    description: Slack webhook URL.
+    required: true
+  MESSAGE:
+    description: The plain text message to send.
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

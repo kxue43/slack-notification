@@ -1,0 +1,17 @@
+{
+  "name": "slack-notification",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GitHub Action for posting a message to a Slack webhook.",
+  "scripts": {
+      "build": "ncc build index.js --license licenses.txt"
+  },
+  "license": "MIT",
+  "dependencies": {
+      "@actions/core": "^1.10.0",
+      "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+      "@vercel/ncc": "^0.34.0"
+  }
+}
